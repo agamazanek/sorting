@@ -22,6 +22,7 @@ public class Main {
         System.out.println(numbers);
 
         //System.out.println(BubbleSort.sort(numbers, Comparator.naturalOrder()));
-        System.out.println(QuickSort.sort(numbers, Comparator.reverseOrder()));
+        //System.out.println(QuickSort.sort(numbers, Comparator.reverseOrder()));
+        System.out.println(InsertionSort.sort(numbers, Comparator.reverseOrder()));
     }
 }
